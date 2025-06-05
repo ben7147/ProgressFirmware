@@ -35,10 +35,6 @@ void setup() {
 
 
 void loop() {
-    display.setTextColor(WHITE);
-    display.setTextSize(1);
-    display.setFont(NULL);
-    display.setCursor(32, 28);
-    display.println(timeStr);
-    display.display();
+ // ..
+ //...
 }
