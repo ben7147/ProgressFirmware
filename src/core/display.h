@@ -10,6 +10,10 @@ extern TwoWire myWire;
 extern Adafruit_SSD1306 display;
 
 void initDisplay();
-void showText(const char* text);
+void displayText(const String text);
+void displayBigCenterStr(const String text);
+void displayBigTopStr(const String text);
+void displaySmallTopStr(const String text);
+void displaySmallLeftTopStr(const String text);
 
-#endif // DISPLAY_H
+#endif

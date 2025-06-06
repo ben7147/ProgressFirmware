@@ -1,6 +1,6 @@
 // display.cpp
 
-#include display.h
+#include "display.h"
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 
@@ -22,11 +22,51 @@ void initDisplay() {
     display.display();
 }
 
-void showText(const char* text) {
+void displayText(const String text) {
     display.clearDisplay();
     display.setTextSize(1);
     display.setTextColor(SSD1306_WHITE);
     display.setCursor(0, 0);
+    display.println(text);
+    display.display();
+}
+
+void displayBigCenterStr(const String text) {
+    display.clearDisplay();
+    display.setTextColor(SSD1306_WHITE);
+    display.setTextSize(2);
+    // display.setFont(NULL);
+    display.setCursor(15, 22);
+    display.println(text);
+    display.display();
+}
+
+void displayBigTopStr(const String text) {
+    display.clearDisplay();
+    display.setTextColor(WHITE);
+    display.setTextSize(2);
+    // display.setFont(NULL);
+    display.setCursor(15, 2);
+    display.println(text);
+    display.display();
+}
+
+void displaySmallTopStr(const String text) {
+    display.clearDisplay();
+    display.setTextColor(WHITE);
+    display.setTextSize(1);
+    // display.setFont(NULL);
+    display.setCursor(38, 2);
+    display.println(text);
+    display.display();
+}
+
+void displaySmallLeftTopStr(const String text) {
+    display.clearDisplay();
+    display.setTextColor(WHITE);
+    display.setTextSize(1);
+    // display.setFont(NULL);
+    display.setCursor(2, 2);
     display.println(text);
     display.display();
 }

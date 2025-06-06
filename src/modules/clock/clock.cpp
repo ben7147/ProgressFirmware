@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include <ESP32Time.h>
-
+#include "clock.h"
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64

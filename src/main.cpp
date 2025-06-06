@@ -1,5 +1,6 @@
 #include <Wire.h>
-#include "modules/clock/clock.cpp"
+#include "modules/clock/clock.h"
+#include "core/display.h"
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
@@ -8,16 +9,17 @@
 
 void setup() {
     Serial.begin(115200);
+    rtc.setTime(0, 0, 0, 1, 1, 2025);
     initDisplay();
-    showText();
-
-    storeCurrentTime();
+    // displaySmallLeftTopStr("30.1 C");
     // ...
     // ...
 }
 
 
 void loop() {
- // ..
+    storeCurrentTime();
+    displayBigCenterStr(timeStr);
+    //delay(10000);
  //...
 }
