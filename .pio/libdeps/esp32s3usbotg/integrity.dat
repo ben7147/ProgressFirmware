@@ -1,7 +1,8 @@
-NTPClient
-Timezone
 Time
+Timezone
 adafruit/Adafruit GFX Library
-ESP32Time
-adafruit/Adafruit SSD1306
 bitbank2/AnimatedGIF
+adafruit/Adafruit SSD1306
+bblanchon/ArduinoJson @ ^6.21.2
+ESP32Time
+NTPClient

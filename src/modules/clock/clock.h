@@ -7,5 +7,6 @@ extern ESP32Time rtc;
 extern String timeStr;
 
 void storeCurrentTime();
+void getTime();
 
 #endif // CLOCK_H

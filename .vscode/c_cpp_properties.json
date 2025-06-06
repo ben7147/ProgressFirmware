@@ -9,7 +9,11 @@
             "name": "PlatformIO",
             "includePath": [
                 "/home/server/Documents/CODING/ProgressFirmware/src",
+                "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
+                "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
+                "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                 "/home/server/Documents/CODING/ProgressFirmware/.pio/libdeps/esp32s3usbotg/AnimatedGIF/src",
+                "/home/server/Documents/CODING/ProgressFirmware/.pio/libdeps/esp32s3usbotg/ArduinoJson/src",
                 "/home/server/Documents/CODING/ProgressFirmware/.pio/libdeps/esp32s3usbotg/ESP32Time",
                 "/home/server/Documents/CODING/ProgressFirmware/.pio/libdeps/esp32s3usbotg/Timezone/src",
                 "/home/server/Documents/CODING/ProgressFirmware/.pio/libdeps/esp32s3usbotg/NTPClient",
@@ -229,7 +233,6 @@
                 "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/Ethernet/src",
                 "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src",
                 "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
-                "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
                 "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src",
                 "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src",
                 "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src",
@@ -246,8 +249,6 @@
                 "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/USB/src",
                 "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
                 "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
-                "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
-                "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                 "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                 ""
             ],
@@ -255,7 +256,11 @@
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
                     "/home/server/Documents/CODING/ProgressFirmware/src",
+                    "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
+                    "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
+                    "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
                     "/home/server/Documents/CODING/ProgressFirmware/.pio/libdeps/esp32s3usbotg/AnimatedGIF/src",
+                    "/home/server/Documents/CODING/ProgressFirmware/.pio/libdeps/esp32s3usbotg/ArduinoJson/src",
                     "/home/server/Documents/CODING/ProgressFirmware/.pio/libdeps/esp32s3usbotg/ESP32Time",
                     "/home/server/Documents/CODING/ProgressFirmware/.pio/libdeps/esp32s3usbotg/Timezone/src",
                     "/home/server/Documents/CODING/ProgressFirmware/.pio/libdeps/esp32s3usbotg/NTPClient",
@@ -475,7 +480,6 @@
                     "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/Ethernet/src",
                     "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/FFat/src",
                     "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/FS/src",
-                    "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/HTTPClient/src",
                     "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdate/src",
                     "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/HTTPUpdateServer/src",
                     "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/I2S/src",
@@ -492,8 +496,6 @@
                     "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/USB/src",
                     "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/Update/src",
                     "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/WebServer/src",
-                    "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src",
-                    "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFiClientSecure/src",
                     "/home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFiProv/src",
                     ""
                 ]
