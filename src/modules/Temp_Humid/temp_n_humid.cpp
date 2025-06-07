@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-int gpioPinForDHT = 47;
+int gpioPinForDHT = 42;
 // String DHTModel = "DHT22";
 
 DHT dht(gpioPinForDHT, DHT11);
