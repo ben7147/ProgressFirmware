@@ -70,3 +70,13 @@ void displaySmallLeftTopStr(const String text) {
     display.println(text);
     //display.display();
 }
+
+void displaySmallRightTopStr(const String text) {
+    // display.clearDisplay();
+    display.setTextColor(WHITE);
+    display.setTextSize(1);
+    display.setFont(NULL);
+    display.setCursor(106, 2);
+    display.println("48%");
+    // display.display();
+}

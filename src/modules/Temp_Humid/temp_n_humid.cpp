@@ -27,11 +27,12 @@ void DHTData() {
     firstStartDHT();
 
     float temperature = dht.readTemperature();
+    float humidity = dht.readHumidity();
 
     displaySmallLeftTopStr(String(temperature, 1) + " C");
+    displaySmallRightTopStr(String(humidity, 1) + " %");
 
 
-    // float humidity = dht.readHumidity();
 
     // delay(100);
 

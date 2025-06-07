@@ -1,2 +1,2 @@
 .vscode
-core/config.h
+src/core/config.h
