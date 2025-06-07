@@ -246,4 +246,14 @@
  src/modules/wifi/connectWifi.h \
  .pio/libdeps/esp32s3usbotg/ArduinoJson/src/ArduinoJson.h \
  .pio/libdeps/esp32s3usbotg/ArduinoJson/src/ArduinoJson.hpp \
- .pio/libdeps/esp32s3usbotg/ArduinoJson/src/ArduinoJson/Configuration.hpp
+ .pio/libdeps/esp32s3usbotg/ArduinoJson/src/ArduinoJson/Configuration.hpp \
+ src/core/display.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src/Wire.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h \
+ .pio/libdeps/esp32s3usbotg/Adafruit\ SSD1306/Adafruit_SSD1306.h \
+ .pio/libdeps/esp32s3usbotg/Adafruit\ GFX\ Library/Adafruit_GFX.h \
+ .pio/libdeps/esp32s3usbotg/Adafruit\ GFX\ Library/gfxfont.h \
+ .pio/libdeps/esp32s3usbotg/Adafruit\ BusIO/Adafruit_I2CDevice.h \
+ .pio/libdeps/esp32s3usbotg/Adafruit\ BusIO/Adafruit_SPIDevice.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src/SPI.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h
