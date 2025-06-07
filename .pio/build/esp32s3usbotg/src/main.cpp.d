@@ -191,4 +191,5 @@
  .pio/libdeps/esp32s3usbotg/Adafruit\ BusIO/Adafruit_I2CDevice.h \
  .pio/libdeps/esp32s3usbotg/Adafruit\ BusIO/Adafruit_SPIDevice.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src/SPI.h \
- /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
+ src/modules/Temp_Humid/temp_n_humid.h

@@ -15,32 +15,33 @@ void setupDHT() {
 }
 
 
-void firstStart() {
+void firstStartDHT() {
     setupDHT();
-    float temperature = dht.readTemperature();
+    // float temperature = dht.readTemperature();
     // float humidity = dht.readHumidity();
-
-    displaySmallLeftTopStr(String(temperature));
 }
 
 
 
 void DHTData() {
-    firstStart();
-    while (true) {
-        float temperature = dht.readTemperature();
-        // float humidity = dht.readHumidity();
+    firstStartDHT();
 
-        delay(100);
+    float temperature = dht.readTemperature();
 
-        float temperatureNew = dht.readTemperature();
+    displaySmallLeftTopStr(String(temperature, 1) + " C");
 
 
-        while (temperature != temperatureNew) {
-               
-            displaySmallLeftTopStr(String(temperature));
-            temperature = temperatureNew;
-            // humidity = humidityNew;
-        }
-    }
+    // float humidity = dht.readHumidity();
+
+    // delay(100);
+
+    // float temperatureNew = dht.readTemperature();
+
+
+    // while (temperature != temperatureNew) {
+            
+    //     displaySmallLeftTopStr(String(temperature));
+    //     temperature = temperatureNew;
+    //     // humidity = humidityNew;
+    // }
 }

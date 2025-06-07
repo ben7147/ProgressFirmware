@@ -3,5 +3,6 @@
 #define __TEMP_N_HUMIDITY
 
 void DHTData();
+void firstStartDHT();
 
 #endif
