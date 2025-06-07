@@ -18,38 +18,29 @@ void setupDHT() {
 void firstStart() {
     setupDHT();
     float temperature = dht.readTemperature();
-    float humidity = dht.readHumidity();
+    // float humidity = dht.readHumidity();
 
-    displaySmallLeftStr(temperarure);
+    displaySmallLeftTopStr(String(temperature));
 }
 
 
 
-void DHTData3() {
+void DHTData() {
     firstStart();
     while (true) {
         float temperature = dht.readTemperature();
-        float humidity = dht.readHumidity();
+        // float humidity = dht.readHumidity();
 
-        for (int i = 0; i < 10000; ++i) {
-            delay(1);
-            if (check(PrevPress)) return;
-        }
+        delay(100);
 
-        // check temperature and humidity again
-        // if not the same, then refresh screen with new value
         float temperatureNew = dht.readTemperature();
-        float humidityNew = dht.readHumidity();
 
-        if (check(PrevPress)) return;
 
-        while (temperature != temperatureNew or humidity != humidityNew) {
+        while (temperature != temperatureNew) {
                
-displaySmallLeftStr(temperarure);
-
-
+            displaySmallLeftTopStr(String(temperature));
             temperature = temperatureNew;
-            humidity = humidityNew;
+            // humidity = humidityNew;
         }
     }
 }
