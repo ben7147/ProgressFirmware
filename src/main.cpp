@@ -1,7 +1,7 @@
 #include <Wire.h>
 #include "modules/clock/clock.h"
 #include "core/display.h"
-
+#include "modules/Temp_Humid/temp_n_humid.h"
 
 String currentTime;
 void setup() {
@@ -18,4 +18,5 @@ void setup() {
 void loop() {
     storeCurrentTime();
     displayBigCenterStr(timeStr);
+    DHTData();
 }
