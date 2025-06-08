@@ -32,13 +32,13 @@ void displayText(const String text) {
 }
 
 void displayBigCenterStr(const String text) {
-    display.clearDisplay();
+    //display.clearDisplay();
     display.setTextColor(SSD1306_WHITE);
     display.setTextSize(2);
     // display.setFont(NULL);
     display.setCursor(15, 22);
     display.println(text);
-    display.display();
+    // display.display();
 }
 
 void displayBigTopStr(const String text) {
@@ -62,11 +62,21 @@ void displaySmallTopStr(const String text) {
 }
 
 void displaySmallLeftTopStr(const String text) {
-    display.clearDisplay();
+    //display.clearDisplay();
     display.setTextColor(WHITE);
     display.setTextSize(1);
     // display.setFont(NULL);
     display.setCursor(2, 2);
     display.println(text);
-    display.display();
+    //display.display();
+}
+
+void displaySmallRightTopStr(const String text) {
+    // display.clearDisplay();
+    display.setTextColor(WHITE);
+    display.setTextSize(1);
+    display.setFont(NULL);
+    display.setCursor(106, 2);
+    display.println("48%");
+    // display.display();
 }

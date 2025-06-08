@@ -15,5 +15,6 @@ void displayBigCenterStr(const String text);
 void displayBigTopStr(const String text);
 void displaySmallTopStr(const String text);
 void displaySmallLeftTopStr(const String text);
+void displaySmallRightTopStr(const String text);
 
 #endif

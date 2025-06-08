@@ -1,8 +1,9 @@
-Time
-Timezone
 adafruit/Adafruit GFX Library
-bitbank2/AnimatedGIF
+https://github.com/adafruit/DHT-sensor-library.git
+NTPClient
 adafruit/Adafruit SSD1306
 bblanchon/ArduinoJson @ ^6.21.2
+Timezone
+Time
+bitbank2/AnimatedGIF
 ESP32Time
-NTPClient
