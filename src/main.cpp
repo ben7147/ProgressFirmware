@@ -3,7 +3,7 @@
 #include "core/display.h"
 #include "modules/Temp_Humid/temp_n_humid.h"
 #include "core/buttons.h"
-#include "modules/wifi/wifi_atks.h"
+#include "modules/wifi/deauth/deauther.h"
 
 String currentTime;
 void setup() {
@@ -31,6 +31,6 @@ void loop() {
     display.clearDisplay();
     if (check(selPress)) {
         Serial.println("Starting deauth flood");
-        deauthFloodAll(7);
+        startDeauth();
     }
 }

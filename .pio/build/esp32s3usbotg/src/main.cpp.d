@@ -193,4 +193,4 @@
  /home/server/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src/SPI.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
  src/modules/Temp_Humid/temp_n_humid.h src/core/buttons.h \
- src/modules/wifi/wifi_atks.h
+ src/modules/wifi/deauth/deauther.h
