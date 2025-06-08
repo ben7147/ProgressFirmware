@@ -193,4 +193,33 @@
  /home/server/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src/SPI.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
  src/modules/Temp_Humid/temp_n_humid.h src/core/buttons.h \
- src/modules/wifi/deauth/deauther.h
+ src/modules/wifi/deauth/deauther.h src/modules/wifi/deauth/definitions.h \
+ src/modules/wifi/deauth/types.h src/modules/wifi/deauth/web_interface.h \
+ src/modules/wifi/deauth/mainDeauth.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFi.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/IPv6Address.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiType.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiSTA.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiGeneric.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_smartconfig.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wifi_provisioning/include/wifi_provisioning/manager.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/protocomm/include/common/protocomm.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/protocomm/include/security/protocomm_security.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wifi_provisioning/include/wifi_provisioning/wifi_config.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiAP.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiScan.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiClient.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Client.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiServer.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Server.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiUdp.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Udp.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/cbuf.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_wifi.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_wifi_types.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_private/esp_wifi_private.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_wifi_crypto_types.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_private/wifi_os_adapter.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_wifi_default.h \
+ src/modules/wifi/deauth/types.h src/modules/wifi/deauth/web_interface.h \
+ src/modules/wifi/deauth/deauther.h src/modules/wifi/deauth/definitions.h
