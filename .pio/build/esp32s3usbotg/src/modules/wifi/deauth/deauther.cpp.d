@@ -1,12 +1,23 @@
 .pio/build/esp32s3usbotg/src/modules/wifi/deauth/deauther.cpp.o: \
- src/modules/wifi/deauth/deauther.cpp src/modules/wifi/deauth/deauther.h \
- /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_wifi.h \
- /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_common/include/esp_err.h \
- /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_common/include/esp_compiler.h \
+ src/modules/wifi/deauth/deauther.cpp \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFi.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/pgmspace.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Printable.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/IPAddress.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Printable.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/IPv6Address.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiType.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_wifi_types.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_private/esp_wifi_types_private.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_common/include/esp_err.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_common/include/esp_compiler.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include/esp_interface.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_event/include/esp_event_base.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiSTA.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiGeneric.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_event/include/esp_event.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/freertos/FreeRTOS.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/esp_additions/freertos/FreeRTOSConfig.h \
@@ -80,7 +91,6 @@
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/freertos/queue.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_event/include/esp_event_base.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_event/include/esp_event_legacy.h \
- /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_wifi_types.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_netif/include/esp_netif.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_netif/include/esp_netif_ip_addr.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_netif/include/esp_netif_types.h \
@@ -115,7 +125,87 @@
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/lwip/include/apps/dhcpserver/dhcpserver.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/lwip/lwip/src/include/lwip/err.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_netif/include/esp_netif_sta_list.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_smartconfig.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wifi_provisioning/include/wifi_provisioning/manager.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/protocomm/include/common/protocomm.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/protocomm/include/security/protocomm_security.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/wifi_provisioning/include/wifi_provisioning/wifi_config.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiAP.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiScan.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiClient.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp_arduino_version.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include/esp_sleep.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/hal/include/hal/touch_sensor_types.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/hal/include/hal/gpio_types.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/include/soc/gpio_periph.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3/include/soc/io_mux_reg.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3/include/soc/gpio_struct.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3/include/soc/gpio_reg.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/soc/esp32s3/include/soc/gpio_sig_map.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/freertos/event_groups.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/freertos/timers.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-log.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/log/include/esp_log.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/log/include/esp_log_internal.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-matrix.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-uart.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/hal/include/hal/uart_types.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-gpio.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/variants/esp32s3usbotg/pins_arduino.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-touch.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-dac.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/driver/include/driver/gpio.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include/esp_intr_alloc.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_common/include/esp_types.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_rom/include/esp32s3/rom/gpio.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-adc.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-i2c.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-ledc.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-rmt.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-sigmadelta.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-timer.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-bt.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-psram.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-rgb-led.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-cpu.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp8266-compat.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/stdlib_noniso.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/binary.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/WCharacter.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Stream.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/IPAddress.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Client.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Server.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Udp.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Stream.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/HardwareSerial.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/HWCDC.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/USBCDC.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Esp.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/spi_flash/include/esp_partition.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/spi_flash/include/esp_flash.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/hal/include/hal/spi_flash_types.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/hal/include/hal/esp_flash_err.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/spi_flash/include/esp_spi_flash.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/spi_flash/include/esp_spi_flash_counters.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_hw_support/include/soc/esp32/spiram.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/io_pin_remap.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Client.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiServer.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Server.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/libraries/WiFi/src/WiFiUdp.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/Udp.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/cores/esp32/cbuf.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_wifi.h \
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_wifi_types.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_private/esp_wifi_private.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_wifi_crypto_types.h \
  /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_private/wifi_os_adapter.h \
- /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_wifi_default.h
+ /home/server/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/esp_wifi/include/esp_wifi_default.h \
+ src/modules/wifi/deauth/types.h src/modules/wifi/deauth/deauther.h \
+ src/modules/wifi/deauth/definitions.h
